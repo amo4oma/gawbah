@@ -7163,7 +7163,10 @@ textarea.textarea-lg {
 .thumbnail-mary-figure {
 	display: block;
 }
-
+.vission{
+	font-size: 20px;
+	font-weight: 700;
+}
 .thumbnail-mary-figure img {
 	width: 50%;
 	height: 300px;
