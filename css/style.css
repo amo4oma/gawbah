@@ -7151,7 +7151,12 @@ textarea.textarea-lg {
 .thumbnail-mary-2 .thumbnail-mary-caption .icon:hover {
 	color: #B09B7B;
 }
+.divaider{
+	height: 100px;
+	width: 5px;
+	background-color: #11263a;
 
+}
 .thumbnail-mary-3::before {
 	background: rgba(22, 46, 68, 0.37);
 }
