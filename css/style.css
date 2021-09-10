@@ -8693,7 +8693,7 @@ textarea.textarea-lg {
 
 .footer-corporate {
 	text-align: center;
-	background: #162e44;
+	background: #333333;
 }
 
 .footer-corporate h6 {
@@ -8796,7 +8796,7 @@ textarea.textarea-lg {
 }
 
 .footer-corporate-2 .footer-corporate-bottom-panel {
-	background: #3c4043;
+	background: #3333 ;
 }
 
 .footer-corporate-2 .post-minimal-2-title a, .footer-corporate-2 .post-minimal-2-title a:focus, .footer-corporate-2 .post-minimal-2-title a:active {
@@ -8833,10 +8833,18 @@ textarea.textarea-lg {
 		padding-top: 75px;
 	}
 }
-
+.whatsapp{
+	position: fixed;
+	right: 100px;
+	top: 89%;
+	z-index: 5;
+}
+.whatsapp .wp-image{
+	width: 50px;
+}
 .footer-corporate-bottom-panel {
 	padding: 30px 0;
-	background: #11263a;
+	background: #3333;
 	color: rgba(255, 255, 255, 0.3);
 }
 
@@ -9154,6 +9162,7 @@ textarea.textarea-lg {
 }
 
 @media (min-width: 576px) {
+	
 	.card-top-panel {
 		flex-direction: row;
 	}
@@ -10291,6 +10300,17 @@ h5 + .list-popular-product {
 @media (min-width: 576px) {
 	.title-modern > span {
 		font-size: 7.8em;
+	}
+}
+@media (max-width: 576px) {
+	.whatsapp {
+		position: fixed;
+		right: 10px;
+		top: 91%;
+		z-index: 5;
+	}
+	.about-gawbah{
+		font-size: 16px;
 	}
 }
 
@@ -17104,7 +17124,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #b09b7b;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
@@ -17185,7 +17205,7 @@ html.rd-navbar-fixed-linked .page {
 	font-size: 16px;
 	letter-spacing: .05em;
 	font-family: "Montserrat", sans-serif, Arial, sans-serif;
-	color: #B09B7B;
+	color: #fff;
 	z-index: 1;
 }
 
@@ -17197,7 +17217,7 @@ html.rd-navbar-fixed-linked .page {
 	height: 0;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.11);
-	border-top: 3px solid #01b3a7;
+	border-top: 3px solid #000000;
 	transform: translate3d(-100%, 0, 0);
 	transition: all 0.35s cubic-bezier(0.05, 0.29, 0.11, 1.54), height 0.3s ease;
 	visibility: hidden;
