@@ -10296,7 +10296,10 @@ h5 + .list-popular-product {
 	animation: titleColor 3s linear infinite;
 	font-size: 6.8em;
 }
-
+.arabic-header{
+	height: 70%;
+	margin-left: 150px;
+}
 @media (min-width: 576px) {
 	.title-modern > span {
 		font-size: 7.8em;
@@ -17076,6 +17079,14 @@ html.rd-navbar-fixed-linked .page {
 * RD Navbar Corporate
 * =====================================================
 */
+.rd-navbar-aside-outer{
+	background-color: #333;
+	height: 180px;
+}
+.logo1{
+	width: 180px !important;
+	padding-bottom: 20px;
+}
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-aside-outer,
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
 	padding-left: 15px;
@@ -18201,20 +18212,56 @@ html.rd-navbar-fixed-linked .page {
 	background: #ffffff;
 	transition: all .3s ease;
 }
-
+.pages-row{
+	height: 100%;
+	text-align: left;
+	padding-top: 50px;
+	line-height: 2;
+}
+.pages-row p{
+	font-size: 22px;
+	line-height: 1.5;
+	font-family: "Montserrat", sans-serif, Arial, sans-serif;
+	
+}
+.pages-row li{
+	margin: 2px;
+	font-size: 17px;
+	font-family: "Montserrat", sans-serif, Arial, sans-serif;
+ 
+}
 .swiper-slider-creative .swiper-pagination-bullet:hover::after,
 .swiper-slider-creative .swiper-pagination-bullet-active::after {
 	background: #ffffff;
 	transform: scale(1, 1) translate3d(-50%, -50%, 0) rotate(0.1deg);
 	transition-delay: .1s;
 }
-
+	.arabic-mobile{
+		display: none;
+	}
 .swiper-slider-creative .swiper-pagination-bullet:hover span,
 .swiper-slider-creative .swiper-pagination-bullet-active span {
 	width: 0;
 }
 
 @media (max-width: 575.98px) {
+	.logo1{
+		width: 110px !important;
+		height:180px !important;
+		padding:0px;
+	}
+	.arabic-mobile{
+		display: block;
+		position: absolute;
+		width: 65%;
+		z-index: 55555;
+		top: 0px;
+		right: 0px;
+	
+	}
+	.rd-navbar-aside-outer{
+		height: 0px;
+	}
 	.swiper-slider-creative .swiper-slide {
 		background-position-x: 35%;
 	}
