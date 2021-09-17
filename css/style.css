@@ -597,7 +597,12 @@ a[href*='tel'], a[href*='mailto'] {
 .box-icon-creative-title a:hover {
 	color: #B09B7B;
 }
-
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 100%;
+	/* The width is the width of the web page */
+  }
 .box-icon-creative-text {
 	letter-spacing: .025em;
 	color: #9b9b9b;
