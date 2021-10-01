@@ -318,11 +318,12 @@
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
-        if (data = "false"){
-          alert("sorry please try again later")
-        } else if (data.success = "true"){
+      console.log(data.success);
+        if (data.success = "true"){
           alert("Thank you for Contacting Gawbah Foundation, We will get back to you as soon as possible")
+        }
+        if (data.success = "false"){
+          alert("sorry please try again later")
         }
     })
 
