@@ -1,0 +1,19 @@
+.arabic-mobile{
+     display: block;
+    position: absolute;
+    width: 64%;
+    right: 0px;
+    top: -20px;
+    z-index: 222222;
+}
+.rd-navbar-wrap{
+    height: 0px !important;
+}
+
+.logo1{
+    object-fit: contain;
+    width: 3em !important;
+    max-height: unset !important;
+  margin-top: 18px;
+ 
+}
