@@ -177,7 +177,7 @@
       <section class="section section-sm section-first bg-default text-md-left">
         <div class="container">
           <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-            <div class="col-lg-6 text-center wow fadeInUp"><img src="https://www.quiickyatra.com/Main/images/index-3-556x382.jpg" alt="" width="556" height="382"/>
+            <div class="col-lg-6 text-center wow fadeInUp"><img id="medil-image" src="https://www.quiickyatra.com/Main/images/index-3-556x382.jpg" alt="" width="556" height="382"/>
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
               <div class="box-width-lg-470">
@@ -186,9 +186,9 @@
                 <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big tabs-line-style-2 text-center text-md-left" id="tabs-7">
                   <!-- Nav tabs-->
                   <ul class="nav nav-tabs">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-7-1" data-toggle="tab">About Gawbah</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-2" data-toggle="tab">Why Gawbah</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-3" data-toggle="tab">Our Vision</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" onclick="changeimage1()" href="#tabs-7-1" data-toggle="tab">About Gawbah</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-2" onclick="changeimage2()" data-toggle="tab">Why Gawbah</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-7-3" onclick="changeimage3()" data-toggle="tab">Our Vision</a></li>
                   </ul>
                   <!-- Tab panes-->
                   <div class="tab-content">
@@ -349,13 +349,13 @@
             <div class="col-sm-6 col-md-5 col-lg-3">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/avatar.png" alt="" width="118" height="118"/></a>
+                <!-- <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/avatar.png" alt="" width="118" height="118"/></a>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
                     </g>
                   </svg>
-                </div>
+                </div> -->
                 <div class="team-modern-caption">
                   <h6 class="team-modern-name"><a href="#">Ahmed Dailami</a></h6>
                   <p class="team-modern-status">Founder, Direct Manager</p>
@@ -366,14 +366,14 @@
             <div class="col-sm-6 col-md-5 col-lg-3">
               <!-- Team Modern-->
               <article class="team-modern">
-                <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/avatar.png" alt="" width="118" height="118"/></a>
+                <!-- <div class="team-modern-header"><a class="team-modern-figure" href="#"><img class="img-circles" src="images/avatar.png" alt="" width="118" height="118"/></a>
                   <svg x="0px" y="0px" width="270px" height="70px" viewbox="0 0 270 70" enable-background="new 0 0 270 70" xml:space="preserve">
                     <g>
                       <path fill="#161616" d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"></path>
                     </g>
                   </svg>
 
-                </div>
+                </div> -->
                 <div class="team-modern-caption">
                   <h6 class="team-modern-name"><a href="#">Abdulaziz Gawbah</a></h6>
                   <p class="team-modern-status">Executive Manager</p>
@@ -502,5 +502,17 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+  function changeimage1(){
+       document.getElementById('medil-image').src="https://www.quiickyatra.com/Main/images/index-3-556x382.jpg"
+  }
+  function changeimage2(){
+       document.getElementById('medil-image').src="/images/volvo1i.jpg"
+  }
+  function changeimage3(){
+       document.getElementById('medil-image').src="/images/oil2.png"
+  }
+   
+    </script>
   </body>
 </html>

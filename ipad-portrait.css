@@ -1,6 +1,6 @@
 .arabic-mobile{
      display: block;
-    position: absolute;
+    position: fixed;
     width: 64%;
     right: 0px;
     top: -20px;
